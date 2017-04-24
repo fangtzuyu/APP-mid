@@ -81,7 +81,7 @@ export const TabRouter = TabNavigator(
       navigationOptions: {
         tabBar: {
           label: 'Search',
-          icon: ({ tintColor }) => <Icon name="list" size={35} color={tintColor} />
+          icon: ({ tintColor }) => <Icon name="search" size={35} color={tintColor} />
         },
       },
     },
@@ -99,7 +99,7 @@ export const TabRouter = TabNavigator(
       navigationOptions: {
         tabBar: {
           label: 'Add/Delete',
-          icon: ({ tintColor }) => <Icon name="build" size={35} color={tintColor} />
+          icon: ({ tintColor }) => <Icon name="business" size={35} color={tintColor} />
         },
       },
     },
