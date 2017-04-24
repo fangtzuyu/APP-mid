@@ -45,6 +45,7 @@ _onValueChange = (value) => {
             <SegmentedControlIOS
               values={this.state.values}
               value={this.state.value}
+              selectedIndex={0}
           onValueChange={this._onValueChange} />
           </View>
               {this.renderListView(this.state.value)}
